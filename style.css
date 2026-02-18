@@ -1,98 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.6;
-  background-color: #f4f4f4;
-  color: #333;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
 }
-
-
-.container {
-  width: 90%;
-  max-width: 1100px;
-  margin: auto;
-}
-
 
 header {
-  background: #0b0b0e;
-  color: #a38f8f;
-  padding: 1.5rem 0;
+    background: linear-gradient(to right, #747474, #8a8b8b);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
 }
 
 header h1 {
-  text-align: center;
-  font-size: 2rem;
+    font-size: 36px;
+    margin-bottom: 10px;
 }
 
-
-nav {
-  background: #6b6666;
+header p {
+    margin-bottom: 20px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: white;
+    color: #839ce9;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
-nav ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-}
-
-nav li {
-  margin: 0 1rem;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-  padding: 0.75rem 0;
-  display: block;
-}
-
-nav a:hover {
-  color: #00bcd4;
-}
-
-main {
-  padding: 2rem 0;
+.btn:hover {
+    background: #333;
+    color: white;
 }
 
 section {
-  margin-bottom: 2rem;
+    padding: 50px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-section h2 {
-  margin-bottom: 1rem;
-  color: #222;
+h2 {
+    margin-bottom: 15px;
+    color: #404a69;
 }
 
-.button {
-  display: inline-block;
-  background: #00bcd4;
-  color: #fff;
-  padding: 0.6rem 1.2rem;
-  border-radius: 4px;
-  text-decoration: none;
+ul {
+    list-style: none;
 }
 
-.button:hover {
-  background: #0097a7;
+ul li {
+    display: inline-block;
+    background: #aab1c5;
+    color: white;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.project {
+    margin-top: 15px;
+    padding: 15px;
+    background: #f8f9fc;
+    border-left: 4px solid #959db6;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+#contact p {
+    margin: 8px 0;
 }
 
 footer {
-  background: #222;
-  color: #f3f3f3;
-  text-align: center;
-  padding: 1rem 0;
-  margin-top: 2rem;
+    text-align: center;
+    padding: 15px;
+    background: #333;
+    color: white;
+    margin-top: 30px;
 }
 
-@media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-  }
-
-  nav li {
-    margin: 0.5rem 0;
-  }
-}
 
 
 
